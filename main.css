@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4b584b;
+}
+
+:root{
+    --colorprimario: #b9d807;
+    --colorsecundario: #141414;
+    --white: rgb(226, 213, 35);
+    --black: rgb(12, 14, 13);
+    --fuente1: 'Anton', sans-serif;  
+    --fuente2: 'Mulish', sans-serif; 
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu img{
+    height: 100%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas{
+    list-style: none;
+    display: flex;
+}
+
+
+.paginas li{
+    margin: 20px;
+}
+
+.paginas a{
+    font-family: var(--fuente1);
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--white);
+}
+
+.paginas :hover{
+    color: var(--colorprimario);
+    transition: 200ms;
+}
+
+.contenido{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items:center
+}
+
+.info_ap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_ap h1{
+    font-family: var(--fuente1);
+    font-size: 40px;
+}
+
+.info_ap h2{
+    margin: 0px;
+    font-family: var(--fuente1);
+    font-size: 20px;
+}
+
+.info_ap p{
+    justify-content: start;
+    margin: 0px;
+    font-family: var(--fuente2);
+    font-size: 15px;
+}
+
+.menu_ap{
+    width: 100%;
+    height: 900px;
+    display:flex;
+    flex-direction:column;
+}
+
+.menu_ap h1{
+    font-size: 40px;
+    font-family: var(--fuente1);
+}
+
+.menu_ap h2{
+    font-size: 30px;
+    font-family: var(--fuente1);
+}
+
+.menu_ap li{
+    font-size: 15px;
+    font-family: var(--fuente2);
+}
+
+
+.aptitudes{
+    display: flex;
+    font-family: var(--fuente1);
+    font-size: 45px;
+    justify-content: center;
+    align-content: center;
+}
+
+.botoninicio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.botoninicio a{
+    font-size: 45px;
+    color: var(--black);
+    text-decoration: none;
+    font-family: var(--fuente1);
+}
+
+.botoninicio{
+    text-decoration: none;
+    font-family: var(--fuente1);
+    height: 50px;
+    width: 100px;
+    color: var(--black);
+    font-size: 20px;
+    background-color: var(--colorprimario);
+    border-radius: 7px;
+    padding: 10px;
+}
